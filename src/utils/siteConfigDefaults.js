@@ -1,7 +1,7 @@
 module.exports = {
 
     // Site domain. Do not include a trailing slash!
-    siteUrl: `https://demo.jamify.org`,
+    siteUrl: `https://venturewithmo.com`,
 
     // Enable infinite scroll (default: true)
     infiniteScroll: true,
@@ -11,13 +11,13 @@ module.exports = {
     postsPerPage: 12,
 
     // This allows an alternative site title for meta data for pages.
-    siteTitleMeta: `Gatsby Headless Ghost Casper`,
+    siteTitleMeta: `Venture With Mo`,
 
     // This allows an alternative site description for meta data for pages.
-    siteDescriptionMeta: `Gastby with Ghost CMS and Casper Skin`,
+    siteDescriptionMeta: `Thoughts on venture, technology & building the future`,
 
     // Used for App manifest e.g. Mobile Home Screen
-    shortTitle: `Ghost`,
+    shortTitle: `Venture With Mo`,
 
     // Logo in /static dir used for SEO, RSS, and App manifest
     siteIcon: `favicon.png`,
