@@ -45,13 +45,6 @@ const SiteNav = ({ data, className, postTitle, overlay }) => {
         <nav className={className}>
             <div className="site-nav-left-wrapper">
                 <div className="site-nav-left">
-                    {siteLogo ? (
-                        <a className="site-nav-logo" href={siteUrl}>
-                            <img src={siteLogo} alt={title} />
-                        </a>
-                    ) : (
-                        <a className="site-nav-logo" href={siteUrl}>{title}</a>
-                    )}
                     <div className="site-nav-content">
                         <Navigation data={navigation} />
                         { postTitle &&
